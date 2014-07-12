@@ -1,0 +1,49 @@
+This is TeX, Version 3.14159 (Web2c 7.3.3.1) (format=LATEX 2003.8.21)  26 JAN 2007 00:32
+**&LATEX EMPS1.tex
+(./EMPS1.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, loaded.
+(c:/Program Files/PCTeX/PCTeXv5/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(c:/Program Files/PCTeX/PCTeXv5/texmf/tex/latex/base/size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./EMPS1.aux)
+\openout1 = `EMPS1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+[1
+
+] (./EMPS1.aux) ) 
+Here is how much of TeX's memory you used:
+ 221 strings out of 10878
+ 2246 string characters out of 70979
+ 1045700 words of memory out of 1263001
+ 3221 multiletter control sequences out of 10000+0
+ 4597 words of font info for 17 fonts, out of 200000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 22i,4n,19p,118b,162s stack positions out of 300i,100n,500p,200000b,4000s
+
+Output written on EMPS1.dvi (1 page, 852 bytes).

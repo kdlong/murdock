@@ -1,0 +1,168 @@
+\documentclass[12pt]{article}
+\setlength{\textwidth}{6in}
+\setlength{\textheight}{8.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\oddsidemargin}{-.0in}
+\setlength{\evensidemargin}{-.0in}
+\title{\LaTeX\ }
+\author{David Murdock, TTU}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\bigskip\bigskip
+
+\section{Why You Need \LaTeX\ }
+
+Eventually in your career as a physicist or mathematician your
+ideas and findings will {\it matter\/} and you will need to
+communicate those ideas to other people.  Computers and word
+processors have made written communication relatively easy, but
+most word processors do {\it not\/} meet then needs of physicists.
+In physics and math we need to create documents which:
+
+\smallskip
+\noindent $\bullet$ Contain a lot of equations which we'd like to
+have printed as clearly as possible.  ``Textbook quality'' is
+desirable!
+
+\smallskip
+\noindent $\bullet$ Are formatted by the software, allowing us to
+spend our time doing more physics and math. This includes the
+numbering of the parts of a document, especially the equations,
+figures and sections.
+
+\smallskip
+\noindent $\bullet$ Are {\it completely\/} transportable between
+different computers and different operating systems on those
+computers.  Scientists use different kinds of computers!
+
+\smallskip
+To meet these needs a computer scientist named Donald Knuth came
+up with a powerful system of {\it typesetting\/} called \TeX.
+Later, a programmer named Leslie Lamport made the system simpler
+by changing the commands somewhat (this was possible because of
+the re-programmable nature of the \TeX\ system) and created the
+typesetting system known as \LaTeX.  \LaTeX\ has now become the
+standard for producing high--quality documents in physics and
+math.
+
+It is true that much can be done with MS Word and its
+``pull--down'' equation editor, and it is true that the ``learning
+curve'' for the MS Word system is not as steep as with \LaTeX,
+since modern word processors gives immediate visual confirmation
+of what will show up on the paper. But the results are just not as
+good.
+
+\section{What Is \LaTeX?}
+
+First off, \LaTeX\ is {\it not\/} a word processing program; it is
+best called a {\it typesetting system\/}.  In an ordinary text
+(``ASCII'') file you input the basic text of the document along
+with special commands which will produce the desired formatting of
+the document.  Included in the input are the equations, which have
+their own special commands for positioning the symbols.
+
+\section{What Do I Need To Use \LaTeX?}
+
+\LaTeX\ can be used on any modern PC or Mac system. You will need
+to get the software, of course, but there are {\it free\/}
+versions to be downloaded from the web. You just need to get the
+files and install them.
+
+On many academic systems \LaTeX\ is already installed and someone
+can tell you how to use it!
+
+In addition to the \TeX\ software, you need a text editing
+program.  All computer systems have these, but some editors are
+more powerful than others.  UNIX and Windows systems come with
+simple text editors but you can get better ones for free or at
+small cost from the web.
+
+\section{But Isn't It Complicated?}
+
+It is true that if you want to use \LaTeX\ to write a book or make
+a document with lots of illustrations then you will have to learn
+lots of technical details about the formatting commands.  But you
+can start simple, enter some text and a few equations and
+gradually throw in more and more formatting tricks as you learn
+them.
+
+Some people put off learning about this powerful system because
+they think they can't learn the entire system at once.  And they
+{\it can't\/}\dots but there's no reason not to start simple and
+work your way up!
+
+\section{Then Show Me Something Simple!}
+
+If you can create a text file with the following lines, you can
+make a \LaTeX\ file!  Try:
+
+\bigskip
+
+\fbox{\fbox{
+\parbox{3in}{\tt
+ $\backslash$documentclass[12pt]$\{$article$\}$
+
+ $\backslash$begin$\{$document$\}$
+
+\vskip 12pt
+ Hi Mom!
+
+\vskip 12pt
+ $\backslash$end$\{$document$\}$
+}}}
+
+\rm
+
+\bigskip
+
+If you can get this to work, you can move up to bigger things.
+
+The file/document {\tt latextut.tex\/} included with this lecture
+is intended to give you a brief sampling of the basic syntax of
+\LaTeX\ but also to give you a running start in using the system.
+You may want to grab this file and substitute your own text,
+equations and tables for the silly material that is in that
+document.
+
+\section{Sounds Great, Dave. My Check Is in the Mail.
+But What's the Catch?}
+
+The catch is that \LaTeX\ is a system for creating your {\it
+professional\/} documents; as such, it does not have some of the
+convenient features of today's bloated word processors.
+Specifically:
+
+\medskip
+Unless you are using a WYSIWYG front end for \LaTeX\, you
+must {\it compile\/} the documents that you create, and there may
+be errors.  You will have to fix them.
+
+\medskip
+In the basic installations of \LaTeX\ there are a limited number
+of fonts you can use in a document.  This is not a limitation for
+serious work because those cutesy fonts which have the i's dotted
+with little hearts are usually out of place in {\sl Physical
+Review}.
+
+\medskip
+Most importantly, it is not so easy for you to include
+graphics with your documents.  You will find this to be a drawback
+only at first; later on you can learn how to use a \LaTeX\
+graphics ``package'' (for example the popular {\tt graphicx})
+which will take the fine postscript figures that you have created
+and put them in the document, properly sized.  Once you get the
+hang of that, illustrations are not hard to put into a \LaTeX\
+document.
+
+\medskip
+
+\section{So How Would I Make Up a Newsletter for My Club with
+Pictures of Our Last Picnic and\dots}
+
+Use MS Word.
+
+\end{document}

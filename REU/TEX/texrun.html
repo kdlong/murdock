@@ -1,0 +1,57 @@
+<html> <head> <title> Running LaTeX</title> </head>
+
+<body>
+
+<h1>Running LaTeX</h1>
+
+There is no universal way to <em>run</em> the LaTeX program (and view/print the
+results) because the "front end" to the program will be different on different machines.
+
+<h2>Editing</h2>
+
+It helps to have a good editor when working with LaTeX files.  The best 
+ones have some way of recognizing when you are working on LaTeX and 
+will color-code the control words and equations so that you can see the structure
+of your work and find errors before the compiling stage.  Some will even show how
+the parentheses and brackets are paired thus avoiding errors from omission of these.
+
+On Unix systems one can set up Emacs to so this sort of thing.  The PC editor Winedt
+will do this. Commercial implementations of LaTeX come with their own editors and
+will do this kind of color-coding.  (At least, PC-TeX does.)
+
+Keep in mind that the editor can just provide <em>help</em>in fixing 
+the mistakes and it does not show how the final document looks.
+
+<h2>Running, Etc.</h2>
+
+<p>After you edit you document with the text editor, there are two steps involved:
+
+<ul>
+<li> Run LaTeX to produce a .DVI file from the .TEX file 
+<li> Run a program which will take the .DVI file and send 
+the visual information to a screen or printer, or else produce another file (e.g. a
+postscript file) which can be printed.
+</ul>
+
+On some setups you would type <b>latex</b> for the first step and 
+<b>xdvi</b> or <b>dvips</b> for the second step. If you have a "GUI" setup it's simpler;
+you just click on buttons to <b>LaTeX</b>, to <b>View</b> and to <b>Print</b>.
+
+<h3> Using Your Campus's Computers</h3>
+
+Your campus or department may have a UNIX or LINUX -based computer for general use.  Such
+a computer probably has LaTeX on it!  Make up a simple LaTeX file, run <b>LaTeX</b> 
+and <b>dvips</b> and see what you get!
+
+
+<h3> On Your Own PC, For Free</h3>
+
+You would basically do the same things with the (free) TeX package MikTeX, when running it in
+the command-line mode. Some editors might give you buttons to push so that you can work in GUI mode.
+
+<h3> On Your Own PC, With Commercial Software</h3>
+
+Commercial software will give you a GUI environment and you will jush push the right
+buttons to do the LaTex-ing, Viewing and Printing.
+
+</body> </html>
